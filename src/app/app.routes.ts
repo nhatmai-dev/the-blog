@@ -1,8 +1,9 @@
 import { RouterModule, Routes } from '@angular/router';
-import { BiographyComponent } from './biography/biography.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BiographyComponent } from './features/biography/biography.component';
+import { PageNotFoundComponent } from './elements/page-not-found/page-not-found.component';
 import { AppComponent } from './app.component';
-import { FeedComponent } from './feed/feed.component';
+import { FeedComponent } from './features/feed/feed.component';
+
 
 
 const appRoutes: Routes = [
