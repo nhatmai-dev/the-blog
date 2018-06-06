@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BiographyComponent } from './features/biography/biography.component';
-import { PageNotFoundComponent } from './elements/page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './elements/common-components/page-not-found/page-not-found.component';
 import { AppRouterModule } from './app.routes';
 import { FeedComponent } from './features/feed/feed.component';
-import { NavibarComponent } from './elements/navibar/navibar.component';
+import { NavibarComponent } from './elements/common-components/navibar/navibar.component';
+import { ArticlePreviewComponent } from './elements/common-components/article-preview/article-preview.component';
+import { ArticleDetailComponent } from './elements/common-components/article-detail/article-detail.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { NavibarComponent } from './elements/navibar/navibar.component';
     BiographyComponent,
     PageNotFoundComponent,
     FeedComponent,
-    NavibarComponent
+    NavibarComponent,
+    ArticlePreviewComponent,
+    ArticleDetailComponent
   ],
   imports: [
     AppRouterModule,

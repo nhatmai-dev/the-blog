@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #424140;
+    background-image: url("https://www.transparenttextures.com/patterns/classy-fabric.png");
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #424140; 
+    border-radius: 10px
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

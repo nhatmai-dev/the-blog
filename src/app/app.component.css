@@ -1,0 +1,19 @@
+.app-container {
+    display: block;
+    overflow-x: hidden;
+    /* background-image: url("https://st2.depositphotos.com/7636160/11772/i/450/depositphotos_117729954-stock-photo-blue-jean-pattern-seamless-for.jpg"); */
+
+}
+
+.app-container__navbar {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+
+.app-container__content {
+    margin-top: 5rem;
+}
+

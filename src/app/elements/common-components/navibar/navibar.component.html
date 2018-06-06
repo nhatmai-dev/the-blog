@@ -1,0 +1,23 @@
+<nav class="nav-extended">
+  <div class="nav-wrapper row">
+    <div class="col m1 l3 hide-on-small-only"></div>
+    <div class="col s12 m10 l6">
+      <div class="col s12 m12 l12">
+        <div class="col s8 m8 l18 logo-area">
+          <a href="#" class="brand-logo">Logo</a>
+        </div>
+        <div class="col s4 m4 l4 language-area hide-on-med-and-down	">
+          <ul>
+            <li *ngFor="let language of availableLanguages">
+              <a [ngClass]="{'language':true, 'selected btn-small': language === currentLocale, 'unselected btn-flat': language !== currentLocale}"
+                (click)="setSelectedLanguage(language)">
+                {{language}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col m1 l3 hide-on-small-only"></div>
+  </div>
+</nav>

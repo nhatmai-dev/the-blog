@@ -1,0 +1,11 @@
+.header {
+    /* color: #ee6e73; */
+    color: #efcc1c;
+    font-weight: 300;
+}
+
+.card-content {
+    font-family: 'Roboto Condensed',Georgia,Cambria,"Times New Roman",Times,sans-serif, serif;
+    color:#fff;
+    background-color: #262522;
+}

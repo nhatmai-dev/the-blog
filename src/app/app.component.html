@@ -1,2 +1,12 @@
-<app-navibar></app-navibar>
-<router-outlet></router-outlet>
+<div class="app-container">
+  <div class="app-container__navbar">
+    <app-navibar></app-navibar>
+  </div>
+  <div class="app-container__content row">
+    <div id="left-panel" class="col m1 l3 hide-on-small-only"></div>
+    <div id="center-panel" class="col s12 m10 l6">
+      <router-outlet></router-outlet>
+    </div>
+    <div id = "right-panel" class="col m1 l3 hide-on-small-only"></div>
+  </div>
+</div>
